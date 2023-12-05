@@ -56,6 +56,7 @@ mongoose
     // for (let i = 0; i < data.length; i++){
     //   console.log(`Stored recipe ${i+1}:`, data[i].title);
     // }
+    console.log("Previously stored recipes:");
     data.forEach((recipe) => console.log(recipe.title));
     console.log(""); // new line
     return Recipe.insertMany(data);
