@@ -27,9 +27,10 @@ const newRecipe = {
   created: 12042023
 };
 
+const query = { title: 'Rigatoni alla Genovese' }
+const toDelete = { title: 'Carrot Cake' }
+
 const MONGODB_URI = 'mongodb://127.0.0.1:27017/recipe-app';
-const query = { title: 'Rigatoni alla Genovese'}
-const toDelete = { title: 'Carrot Cake'}
 
 // Connection to the database "recipe-app"
 mongoose
